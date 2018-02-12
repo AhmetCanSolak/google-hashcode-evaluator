@@ -1,48 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Open Source Judge for past Google HashCode Problems</title>
-  </head>
-  <body onload="myFunction()">
+<head>
+  <meta charset="utf-8">
+  <title>Open Source Judge for past Google HashCode Problems</title>
+</head>
+<body>
+  <h2>Pizza Problem - Classical Test Round:(Not Available Yet)</h2>
+  <div onload="myFunction()">
+    <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
 
-<input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+    <p id="demo"></p>
+    <script type="text/javascript" src="js/simpleUpload.js"></script>
 
-<p id="demo"></p>
+    <p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
+  </div>
+  <hr>
 
-<script>
-function myFunction(){
-    var x = document.getElementById("myFile");
-    var txt = "";
-    if ('files' in x) {
-        if (x.files.length == 0) {
-            txt = "Select one or more files.";
-        } else {
-            for (var i = 0; i < x.files.length; i++) {
-                txt += "<br><strong>" + (i+1) + ". file</strong><br>";
-                var file = x.files[i];
-                if ('name' in file) {
-                    txt += "name: " + file.name + "<br>";
-                }
-                if ('size' in file) {
-                    txt += "size: " + file.size + " bytes <br>";
-                }
-            }
-        }
-    }
-    else {
-        if (x.value == "") {
-            txt += "Select one or more files.";
-        } else {
-            txt += "The files property is not supported by your browser!";
-            txt  += "<br>The path of the selected file: " + x.value; // If the browser does not support the files property, it will return the path of the selected file instead.
-        }
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-</script>
+  <h2>Router placement  - 2017 Final Round:(Not Available Yet)</h2>
+  <div onload="myFunction()">
+    <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
 
-<p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
+    <p id="demo"></p>
+    <script type="text/javascript" src="js/simpleUpload.js"></script>
+
+    <p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
+  </div>
+  <hr>
+
+  <h2>Streaming videos - 2017 Online Round:(Not Available Yet)</h2>
+  <div onload="myFunction()">
+    <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+
+    <p id="demo"></p>
+    <script type="text/javascript" src="js/simpleUpload.js"></script>
+
+    <p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
+  </div>
+  <hr>
+
+  <h2>Satellites  - 2016 Final Round:(Not Available Yet)</h2>
+  <div onload="myFunction()">
+    <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+
+    <p id="demo"></p>
+    <script type="text/javascript" src="js/simpleUpload.js"></script>
+
+    <p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
+  </div>
+  <hr>
+
+  <h2>Delivery - 2016 Online Round:(Not Available Yet)</h2>
+  <div onload="myFunction()">
+    <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+
+    <p id="demo"></p>
+    <script type="text/javascript" src="js/simpleUpload.js"></script>
+
+    <p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
+  </div>
+  <hr>
+
+  <h2>Loon - 2015 Final Round:(Not Available Yet)</h2>
+  <div onload="myFunction()">
+    <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+
+    <p id="demo"></p>
+    <script type="text/javascript" src="js/simpleUpload.js"></script>
+
+    <p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
+  </div>
+  <hr>
+
+  <h2>Optimize a data center - 2015 Online Round:(Not Available Yet)</h2>
+  <div onload="myFunction()">
+    <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+
+    <p id="demo"></p>
+    <script type="text/javascript" src="js/simpleUpload.js"></script>
+
+    <p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
+  </div>
+  <hr>
+
+  <h2>Street View routing - 2014 Final Round:(Not Available Yet)</h2>
+  <div onload="myFunction()">
+    <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+
+    <p id="demo"></p>
+    <script type="text/javascript" src="js/simpleUpload.js"></script>
+
+    <p><strong>Tip:</strong> Use the Control or the Shift key to select multiple files.</p>
+  </div>
+  <hr>
 
 </body>
 </html>
